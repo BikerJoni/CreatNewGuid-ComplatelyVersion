@@ -5,8 +5,7 @@ using TextCopy;
 string userInput;
 do
 {
-    
-    Console.WriteLine("Press 1 for new Guid or press 2 for DateTimeOffSet");
+    Console.WriteLine("Welcome!, Press 1 in order to creat and copy new Guid or press 2 for DateTimeOffSet.UtcNow");
     int input = int.Parse(s: Console.ReadLine());
     if (input is 1)
     {
